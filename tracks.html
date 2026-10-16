@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Tracks & Topics | AIHASC 2027</title>
+  <meta name="description" content="Explore the 6 comprehensive technical tracks and 54+ specialized subtopics of AIHASC 2027. Filter by AI, Healthcare, Agriculture, Sustainable Computing, and Security.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+  <div class="top-ticker">
+    <div class="container ticker-content">
+      <div class="ticker-left">
+        <span class="ticker-badge">📢 Call for Papers</span>
+        <span>AIHASC 2027 · International Conference on AI for Healthcare, Agriculture &amp; Sustainable Computing</span>
+      </div>
+      <div class="ticker-items">
+        <span class="ticker-item">🗓️ <strong>25–26 March 2027</strong></span>
+        <span class="ticker-item">📍 <strong>Pune, India</strong></span>
+        <span class="ticker-item">🔒 <strong>Double-Blind Peer Review</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-link" aria-label="AIHASC 2027 Home">
+        <div class="brand-vit-wrap">
+          <img src="images/vit%20logo.png" alt="VIT Pune Logo" class="brand-vit-logo">
+        </div>
+        <div class="brand-divider" aria-hidden="true"></div>
+        <img src="images/favicon.svg" alt="AIHASC 2027 Logo" class="brand-emblem">
+        <div class="brand-text">
+          <div class="brand-title">AIHASC <span class="brand-year">2027</span></div>
+          <div class="brand-sub">AI · Health · Agriculture · Sustainability</div>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link" data-page="index.html">Home</a></li>
+        <li><a href="about.html" class="nav-link" data-page="about.html">About</a></li>
+        <li><a href="tracks.html" class="nav-link active" data-page="tracks.html">Tracks</a></li>
+        <li><a href="call-for-papers.html" class="nav-link" data-page="call-for-papers.html">Call for Papers</a></li>
+        <li><a href="author-guidelines.html" class="nav-link" data-page="author-guidelines.html">Guidelines</a></li>
+        <li><a href="committee.html" class="nav-link" data-page="committee.html">Committee</a></li>
+        <li><a href="venue.html" class="nav-link" data-page="venue.html">Venue</a></li>
+        <li><a href="contact.html" class="nav-link" data-page="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">☀️ Light</button>
+        <a href="call-for-papers.html#submission" class="nav-cta">Submit Paper →</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> <span>/</span> <span>Tracks &amp; Topics</span>
+      </div>
+      <h1>Technical Tracks &amp; Research Scope</h1>
+      <p class="page-hero-sub">
+        Explore the six core technical tracks and 54+ specialized subtopics invited for presentation and peer-reviewed publication at AIHASC 2027.
+      </p>
+    </div>
+  </section>
+
+  <!-- Interactive Tracks Explorer -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Search & Category Filters -->
+      <div class="track-controls">
+        <div class="track-search-bar">
+          <span class="track-search-icon">🔍</span>
+          <input type="text" id="track-search" class="track-search-input" placeholder="Search tracks or topics (e.g. 'Cancer', 'Precision', 'Energy', 'LLMs', 'Federated')..." aria-label="Search technical tracks">
+        </div>
+
+        <div class="track-filter-pills">
+          <button class="filter-pill active" data-filter="all">All Tracks (6)</button>
+          <button class="filter-pill" data-filter="ai">1. Artificial Intelligence</button>
+          <button class="filter-pill" data-filter="health">2. Healthcare &amp; Biomed</button>
+          <button class="filter-pill" data-filter="agri">3. Agriculture &amp; Food</button>
+          <button class="filter-pill" data-filter="green">4. Sustainable &amp; Green</button>
+          <button class="filter-pill" data-filter="security">5. Cybersecurity &amp; Privacy</button>
+          <button class="filter-pill" data-filter="emerging">6. Emerging &amp; Interdisciplinary</button>
+        </div>
+
+        <div id="track-match-count" style="display:none;font-size:0.88rem;color:var(--emerald);font-weight:600;"></div>
+      </div>
+
+      <!-- Tracks Grid -->
+      <div class="grid grid-2" style="gap:30px;">
+
+        <!-- Track 1 -->
+        <div class="card track-card" id="track-1" data-category="ai" style="border-top-color:#10b981;">
+          <div>
+            <div class="track-header">
+              <span class="track-badge" style="color:#10b981;background:rgba(16,185,129,0.12);">Track 01</span>
+              <span class="track-topic-count">8 Core Topics</span>
+            </div>
+            <h2>Artificial Intelligence and Intelligent Computing</h2>
+            <p class="track-desc">
+              Focuses on fundamental algorithmic developments, neural architectures, deep learning theory, generative models, and scalable machine intelligence techniques.
+            </p>
+
+            <h4 style="font-size:0.92rem;margin-bottom:12px;color:var(--text-main);">Topics of Interest:</h4>
+            <div class="track-topics-wrap">
+              <span class="topic-tag">Machine Learning &amp; Deep Learning</span>
+              <span class="topic-tag">Generative AI &amp; Large Language Models</span>
+              <span class="topic-tag">Computer Vision &amp; Image Processing</span>
+              <span class="topic-tag">Natural Language Processing &amp; Multimodal AI</span>
+              <span class="topic-tag">Explainable, Responsible &amp; Trustworthy AI</span>
+              <span class="topic-tag">Reinforcement Learning &amp; Decision Systems</span>
+              <span class="topic-tag">Neural Networks &amp; Model Optimization</span>
+              <span class="topic-tag">Big Data Analytics &amp; Predictive Modelling</span>
+            </div>
+          </div>
+
+          <div class="track-footer">
+            <span style="font-size:0.82rem;color:var(--text-dim);">SDG Alignment: SDG 9, SDG 12</span>
+            <a href="call-for-papers.html#submission" class="btn btn-outline" style="padding:6px 14px;font-size:0.84rem;">Submit to Track 1 →</a>
+          </div>
+        </div>
+
+        <!-- Track 2 -->
+        <div class="card track-card" id="track-2" data-category="health" style="border-top-color:#06b6d4;">
+          <div>
+            <div class="track-header">
+              <span class="track-badge" style="color:#06b6d4;background:rgba(6,182,212,0.12);">Track 02</span>
+              <span class="track-topic-count">9 Core Topics</span>
+            </div>
+            <h2>AI for Healthcare and Biomedical Applications</h2>
+            <p class="track-desc">
+              Dedicated to clinical computational methods, intelligent diagnostic decision support, biomedical signal informatics, medical image segmentation, and precision healthcare.
+            </p>
+
+            <h4 style="font-size:0.92rem;margin-bottom:12px;color:var(--text-main);">Topics of Interest:</h4>
+            <div class="track-topics-wrap">
+              <span class="topic-tag">Medical Image Analysis, Segmentation &amp; Classification</span>
+              <span class="topic-tag">AI-Based Disease Prediction &amp; Diagnosis</span>
+              <span class="topic-tag">Biomedical Signal Processing &amp; Patient Monitoring</span>
+              <span class="topic-tag">AI for Cancer Detection &amp; Decision Support</span>
+              <span class="topic-tag">Digital Health, Telemedicine &amp; Smart Healthcare</span>
+              <span class="topic-tag">AI in Drug Discovery &amp; Personalized Medicine</span>
+              <span class="topic-tag">AI for Reproductive Medicine &amp; Embryo Selection</span>
+              <span class="topic-tag">Federated Learning &amp; Privacy-Preserving Health</span>
+              <span class="topic-tag">Healthcare Data Analytics &amp; Clinical Support</span>
+            </div>
+          </div>
+
+          <div class="track-footer">
+            <span style="font-size:0.82rem;color:var(--text-dim);">SDG Alignment: SDG 3 (Good Health)</span>
+            <a href="call-for-papers.html#submission" class="btn btn-outline" style="padding:6px 14px;font-size:0.84rem;">Submit to Track 2 →</a>
+          </div>
+        </div>
+
+        <!-- Track 3 -->
+        <div class="card track-card" id="track-3" data-category="agri" style="border-top-color:#dda63a;">
+          <div>
+            <div class="track-header">
+              <span class="track-badge" style="color:#dda63a;background:rgba(221,166,58,0.12);">Track 03</span>
+              <span class="track-topic-count">9 Core Topics</span>
+            </div>
+            <h2>AI for Agriculture and Food Security</h2>
+            <p class="track-desc">
+              Covers computational agronomy, drone and satellite remote sensing, autonomous agricultural machinery, pest management, and intelligent yield forecasting.
+            </p>
+
+            <h4 style="font-size:0.92rem;margin-bottom:12px;color:var(--text-main);">Topics of Interest:</h4>
+            <div class="track-topics-wrap">
+              <span class="topic-tag">Plant Disease Detection &amp; Classification</span>
+              <span class="topic-tag">Precision Agriculture &amp; Smart Farming</span>
+              <span class="topic-tag">Crop Yield Prediction &amp; Agricultural Forecasting</span>
+              <span class="topic-tag">AI-Based Soil, Water &amp; Nutrient Management</span>
+              <span class="topic-tag">Agricultural Robotics &amp; Autonomous Harvesters</span>
+              <span class="topic-tag">Remote Sensing, Satellite Imaging &amp; Drones</span>
+              <span class="topic-tag">Climate-Smart Agriculture &amp; Pest Management</span>
+              <span class="topic-tag">Food Quality Assessment &amp; Supply Chain</span>
+              <span class="topic-tag">IoT-Enabled Agricultural Sensor Networks</span>
+            </div>
+          </div>
+
+          <div class="track-footer">
+            <span style="font-size:0.82rem;color:var(--text-dim);">SDG Alignment: SDG 2 (Zero Hunger)</span>
+            <a href="call-for-papers.html#submission" class="btn btn-outline" style="padding:6px 14px;font-size:0.84rem;">Submit to Track 3 →</a>
+          </div>
+        </div>
+
+        <!-- Track 4 -->
+        <div class="card track-card" id="track-4" data-category="green" style="border-top-color:#34d399;">
+          <div>
+            <div class="track-header">
+              <span class="track-badge" style="color:#34d399;background:rgba(52,211,153,0.12);">Track 04</span>
+              <span class="track-topic-count">9 Core Topics</span>
+            </div>
+            <h2>Sustainable and Green Computing</h2>
+            <p class="track-desc">
+              Explores low-power computing paradigms, energy-efficient algorithmic formulations, carbon-aware data centers, renewable grid optimization, and smart urban ecosystems.
+            </p>
+
+            <h4 style="font-size:0.92rem;margin-bottom:12px;color:var(--text-main);">Topics of Interest:</h4>
+            <div class="track-topics-wrap">
+              <span class="topic-tag">Green Computing &amp; Sustainable AI</span>
+              <span class="topic-tag">Energy-Efficient Algorithms &amp; AI Models</span>
+              <span class="topic-tag">Green Cloud &amp; Data Centre Optimization</span>
+              <span class="topic-tag">Edge Computing &amp; Fog Computing</span>
+              <span class="topic-tag">Sustainable High-Performance Computing (HPC)</span>
+              <span class="topic-tag">Renewable Energy Forecasting &amp; Smart Grid</span>
+              <span class="topic-tag">Carbon-Aware Computing &amp; Resource Management</span>
+              <span class="topic-tag">Smart Cities &amp; Intelligent Transportation</span>
+              <span class="topic-tag">Computing for Climate Change &amp; Eco-Monitoring</span>
+            </div>
+          </div>
+
+          <div class="track-footer">
+            <span style="font-size:0.82rem;color:var(--text-dim);">SDG Alignment: SDG 7, SDG 11, SDG 13</span>
+            <a href="call-for-papers.html#submission" class="btn btn-outline" style="padding:6px 14px;font-size:0.84rem;">Submit to Track 4 →</a>
+          </div>
+        </div>
+
+        <!-- Track 5 -->
+        <div class="card track-card" id="track-5" data-category="security" style="border-top-color:#6366f1;">
+          <div>
+            <div class="track-header">
+              <span class="track-badge" style="color:#818cf8;background:rgba(99,102,241,0.12);">Track 05</span>
+              <span class="track-topic-count">8 Core Topics</span>
+            </div>
+            <h2>Cybersecurity, Privacy, and Responsible Computing</h2>
+            <p class="track-desc">
+              Investigates cryptographic protocols, decentralized ledgers, adversarial robustness, privacy-preserving machine learning, and ethical data governance models.
+            </p>
+
+            <h4 style="font-size:0.92rem;margin-bottom:12px;color:var(--text-main);">Topics of Interest:</h4>
+            <div class="track-topics-wrap">
+              <span class="topic-tag">AI-Driven Cybersecurity &amp; Intrusion Detection</span>
+              <span class="topic-tag">Blockchain &amp; Distributed Ledger Technologies</span>
+              <span class="topic-tag">Federated Learning &amp; Secure Distributed Training</span>
+              <span class="topic-tag">Privacy-Preserving Machine Learning (PPML)</span>
+              <span class="topic-tag">Secure IoT &amp; Cyber-Physical Systems</span>
+              <span class="topic-tag">Adversarial Machine Learning &amp; AI Defense</span>
+              <span class="topic-tag">Data Governance, Fairness &amp; Accountability</span>
+              <span class="topic-tag">Trustworthy AI for Critical National Assets</span>
+            </div>
+          </div>
+
+          <div class="track-footer">
+            <span style="font-size:0.82rem;color:var(--text-dim);">SDG Alignment: SDG 9, SDG 16</span>
+            <a href="call-for-papers.html#submission" class="btn btn-outline" style="padding:6px 14px;font-size:0.84rem;">Submit to Track 5 →</a>
+          </div>
+        </div>
+
+        <!-- Track 6 -->
+        <div class="card track-card" id="track-6" data-category="emerging" style="border-top-color:#f59e0b;">
+          <div>
+            <div class="track-header">
+              <span class="track-badge" style="color:#f59e0b;background:rgba(245,158,11,0.12);">Track 06</span>
+              <span class="track-topic-count">9 Core Topics</span>
+            </div>
+            <h2>Emerging Technologies &amp; Interdisciplinary Applications</h2>
+            <p class="track-desc">
+              Encompasses next-generation paradigms, digital twin simulations, autonomous robotics, quantum computing algorithms, and multidisciplinary SDG applications.
+            </p>
+
+            <h4 style="font-size:0.92rem;margin-bottom:12px;color:var(--text-main);">Topics of Interest:</h4>
+            <div class="track-topics-wrap">
+              <span class="topic-tag">Internet of Things (IoT) &amp; Industrial IoT</span>
+              <span class="topic-tag">Digital Twins &amp; Intelligent Physical Simulation</span>
+              <span class="topic-tag">Robotics &amp; Autonomous Navigation Systems</span>
+              <span class="topic-tag">Quantum Computing &amp; Emerging Computational Models</span>
+              <span class="topic-tag">Cloud-Native Distributed Architectures</span>
+              <span class="topic-tag">AI for Smart Education &amp; Digital Inclusion</span>
+              <span class="topic-tag">AI for Disaster Prediction &amp; Early Warnings</span>
+              <span class="topic-tag">Intelligent Transportation &amp; Urban Mobility</span>
+              <span class="topic-tag">Interdisciplinary AI Applications Supporting SDGs</span>
+            </div>
+          </div>
+
+          <div class="track-footer">
+            <span style="font-size:0.82rem;color:var(--text-dim);">SDG Alignment: All 6 Conference SDGs</span>
+            <a href="call-for-papers.html#submission" class="btn btn-outline" style="padding:6px 14px;font-size:0.84rem;">Submit to Track 6 →</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Submission Guidelines Quick Callout -->
+      <div class="card" style="margin-top:40px;background:var(--bg-elevated);border-left:4px solid var(--emerald);padding:30px;">
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;">
+          <div>
+            <h3 style="margin-bottom:8px;">Ready to Submit Your Manuscript?</h3>
+            <p style="margin-bottom:0;font-size:0.95rem;">Review our author instructions, double-blind policy, and official manuscript formatting templates.</p>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="call-for-papers.html" class="btn btn-primary">Call for Papers Details</a>
+            <a href="author-guidelines.html" class="btn btn-outline">Author Guidelines</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="brand-link" style="margin-bottom:18px;">
+          <div class="brand-vit-wrap">
+            <img src="images/vit%20logo.png" alt="VIT Pune Logo" class="brand-vit-logo">
+          </div>
+          <div class="brand-divider" aria-hidden="true"></div>
+          <img src="images/favicon.svg" alt="AIHASC 2027 Logo" class="brand-emblem">
+          <div class="brand-text">
+            <div class="brand-title" style="color:#ffffff;">AIHASC <span class="brand-year">2027</span></div>
+            <div class="brand-sub">AI · Health · Agriculture · Sustainability</div>
+          </div>
+        </a>
+        <p style="font-size:0.88rem;line-height:1.6;margin-bottom:16px;">
+          <strong>AIHASC 2027</strong> — International Conference on AI for Healthcare, Agriculture and Sustainable Computing.
+        </p>
+        <div style="font-size:0.84rem;color:var(--text-dim);">
+          📍 Pune, Maharashtra, India · 25–26 March 2027
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About AIHASC</a></li>
+          <li><a href="tracks.html">Technical Tracks</a></li>
+          <li><a href="call-for-papers.html">Call for Papers</a></li>
+          <li><a href="author-guidelines.html">Author Guidelines</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Proposal &amp; Governance</h4>
+        <ul class="footer-links">
+          <li><a href="proposal.html">Conference Proposal</a></li>
+          <li><a href="committee.html">Organizing Committee</a></li>
+          <li><a href="venue.html">Venue &amp; Pune Travel</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="downloads/AIHASC_2027_Call_for_Papers_and_Conference_Proposal.docx" download>Download DOCX</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Review &amp; Indexing Notice</h4>
+        <p style="font-size:0.85rem;line-height:1.55;color:var(--text-dim);">
+          Submissions are evaluated through double-blind peer review by at least three independent domain specialists. Scopus indexing is not guaranteed.
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>© 2027 AIHASC Organizing Committee. All rights reserved.</div>
+      <div style="display:flex;gap:16px;">
+        <a href="about.html" style="color:var(--text-dim);">About</a>
+        <a href="tracks.html" style="color:var(--text-dim);">Tracks</a>
+        <a href="contact.html" style="color:var(--text-dim);">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>

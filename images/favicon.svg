@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="favLeaf" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="#070d18" />
+  <!-- Tech Outer Hexagon Ring -->
+  <polygon points="50,10 88,30 88,70 50,90 12,70 12,30" fill="none" stroke="url(#favGrad)" stroke-width="3" stroke-dasharray="5 3" opacity="0.85" />
+  <!-- Inner glowing circle -->
+  <circle cx="50" cy="50" r="32" fill="#0b1728" stroke="url(#favGrad)" stroke-width="2.5" />
+  <!-- Stylized Leaf -->
+  <path d="M 50,26 C 65,31 69,49 55,63 C 43,51 40,36 50,26 Z" fill="url(#favLeaf)" opacity="0.9" />
+  <!-- Pulse Line -->
+  <path d="M 26,52 L 38,52 L 43,40 L 48,64 L 54,34 L 59,58 L 64,52 L 74,52" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- AI Nodes -->
+  <circle cx="50" cy="26" r="3.5" fill="#34d399" />
+  <circle cx="68" cy="40" r="3" fill="#06b6d4" />
+  <circle cx="32" cy="40" r="3" fill="#38bdf8" />
+</svg>

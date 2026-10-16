@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIHASC 2027 | International Conference on AI for Healthcare, Agriculture and Sustainable Computing</title>
+  <meta name="description" content="AIHASC 2027 — International Conference on AI for Healthcare, Agriculture and Sustainable Computing. 25–26 March 2027, Pune, Maharashtra, India. Advancing intelligent technologies for a sustainable future.">
+  <meta name="keywords" content="AIHASC 2027, Artificial Intelligence Conference, AI Healthcare, Precision Agriculture, Sustainable Computing, Pune Conference 2027, Green AI, SDGs">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+  <div class="top-ticker">
+    <div class="container ticker-content">
+      <div class="ticker-left">
+        <span class="ticker-badge">📢 Call for Papers</span>
+        <span>AIHASC 2027 · International Conference on AI for Healthcare, Agriculture &amp; Sustainable Computing</span>
+      </div>
+      <div class="ticker-items">
+        <span class="ticker-item">🗓️ <strong>25–26 March 2027</strong></span>
+        <span class="ticker-item">📍 <strong>Pune, India</strong></span>
+        <span class="ticker-item">🔒 <strong>Double-Blind Peer Review</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-link" aria-label="AIHASC 2027 Home">
+        <div class="brand-vit-wrap">
+          <img src="images/vit%20logo.png" alt="VIT Pune Logo" class="brand-vit-logo">
+        </div>
+        <div class="brand-divider" aria-hidden="true"></div>
+        <img src="images/favicon.svg" alt="AIHASC 2027 Logo" class="brand-emblem">
+        <div class="brand-text">
+          <div class="brand-title">AIHASC <span class="brand-year">2027</span></div>
+          <div class="brand-sub">AI · Health · Agriculture · Sustainability</div>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link active" data-page="index.html">Home</a></li>
+        <li><a href="about.html" class="nav-link" data-page="about.html">About</a></li>
+        <li><a href="tracks.html" class="nav-link" data-page="tracks.html">Tracks</a></li>
+        <li><a href="call-for-papers.html" class="nav-link" data-page="call-for-papers.html">Call for Papers</a></li>
+        <li><a href="author-guidelines.html" class="nav-link" data-page="author-guidelines.html">Guidelines</a></li>
+        <li><a href="committee.html" class="nav-link" data-page="committee.html">Committee</a></li>
+        <li><a href="venue.html" class="nav-link" data-page="venue.html">Venue</a></li>
+        <li><a href="contact.html" class="nav-link" data-page="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">☀️ Light</button>
+        <a href="call-for-papers.html#submission" class="nav-cta">Submit Paper →</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="badge-tag">First Edition · Annual International Forum</span>
+        <h1>Advancing Intelligent Technologies for <span class="hero-gradient-text">Healthcare, Agriculture</span> &amp; Sustainable Computing</h1>
+        <p class="hero-lead">
+          AIHASC 2027 is a premier international academic and professional forum bringing together researchers, scientists, and innovators to solve critical real-world challenges through responsible, secure, and energy-efficient AI.
+        </p>
+
+        <div class="hero-meta-bar">
+          <div class="hero-meta-item">
+            <span class="hero-meta-icon">🗓️</span>
+            <div><strong>Dates:</strong> 25–26 March 2027</div>
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-icon">📍</span>
+            <div><strong>Location:</strong> Pune, Maharashtra, India</div>
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-icon">🌐</span>
+            <div><strong>Format:</strong> In-Person &amp; Keynote Streams</div>
+          </div>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="call-for-papers.html" class="btn btn-primary">📄 Call for Papers</a>
+          <a href="tracks.html" class="btn btn-cyan">🔬 Explore 6 Technical Tracks</a>
+          <a href="proposal.html" class="btn btn-outline">📑 Read Proposal Briefing</a>
+        </div>
+
+        <!-- Countdown Timer -->
+        <div class="countdown-box" aria-label="Countdown to AIHASC 2027">
+          <div class="countdown-title">
+            <span>⏳ Countdown to Conference Opening</span>
+            <span style="color:var(--emerald);font-weight:700;">25 March 2027</span>
+          </div>
+          <div class="countdown-grid">
+            <div class="countdown-cell">
+              <div class="countdown-num" id="cd-days">--</div>
+              <div class="countdown-lbl">Days</div>
+            </div>
+            <div class="countdown-cell">
+              <div class="countdown-num" id="cd-hours">--</div>
+              <div class="countdown-lbl">Hours</div>
+            </div>
+            <div class="countdown-cell">
+              <div class="countdown-num" id="cd-mins">--</div>
+              <div class="countdown-lbl">Minutes</div>
+            </div>
+            <div class="countdown-cell">
+              <div class="countdown-num" id="cd-secs">--</div>
+              <div class="countdown-lbl">Seconds</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Art Card -->
+      <div class="hero-visual-card">
+        <img src="images/aihasc_abstract_art.jpg" alt="AIHASC 2027 Theme Visualization: AI, Healthcare DNA and Botanical Agriculture" class="hero-visual-img">
+        <div class="hero-visual-overlay">
+          <div class="hero-visual-title">Interdisciplinary Synergy</div>
+          <p style="font-size:0.86rem;margin-bottom:12px;color:rgba(255,255,255,0.85);">Integrating Machine Intelligence with Precision Agriculture, Biomedical Diagnostics, and Climate-Aware Computing.</p>
+          <div class="hero-visual-badge-row">
+            <span class="pill-badge">🌱 Precision Agri</span>
+            <span class="pill-badge">🧬 Digital Health</span>
+            <span class="pill-badge">⚡ Green AI</span>
+            <span class="pill-badge">🔒 Privacy Preserving</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Metrics Strip -->
+  <section class="stats-strip">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">6</div>
+        <div class="stat-label">Core Technical Tracks</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">54+</div>
+        <div class="stat-label">Specialized Subtopics</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">6</div>
+        <div class="stat-label">UN SDGs Addressed</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">3+</div>
+        <div class="stat-label">Independent Reviewers / Paper</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Double-Blind Peer Review</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Conference Rationale Section -->
+  <section class="section">
+    <div class="container two-col">
+      <div>
+        <span class="badge-tag">Conference Rationale</span>
+        <h2>Transforming Society through Responsible &amp; Energy-Efficient AI</h2>
+        <p>
+          Artificial Intelligence and intelligent computing technologies are transforming healthcare diagnostics, sustainable agriculture, industrial infrastructure, and environmental preservation. Recent developments in deep learning, generative AI, computer vision, the Internet of Things, and privacy-preserving computing offer groundbreaking opportunities to solve urgent societal challenges.
+        </p>
+        <p>
+          The <strong>International Conference on AI for Healthcare, Agriculture and Sustainable Computing (AIHASC 2027)</strong> provides a premier forum for presenting novel methodologies, theoretical developments, experimental findings, and practical deployments of intelligent computing.
+        </p>
+
+        <ul class="list-check">
+          <li><strong>Interdisciplinary Collaboration:</strong> Connecting computer scientists, biomedical clinicians, agronomists, and environmental researchers.</li>
+          <li><strong>Rigorous Double-Blind Review:</strong> Each manuscript evaluated by at least three independent reviewers for methodological rigor and technical soundness.</li>
+          <li><strong>UN SDGs Alignment:</strong> Dedicated research focus addressing Zero Hunger, Good Health, Clean Energy, Industry Innovation, and Climate Action.</li>
+          <li><strong>Academic &amp; Industry Exchange:</strong> Best Paper Awards, keynote lectures, and research translation workshops.</li>
+        </ul>
+
+        <div style="margin-top:28px;display:flex;gap:14px;flex-wrap:wrap;">
+          <a href="about.html" class="btn btn-outline">Read Full Overview &amp; Objectives →</a>
+          <button class="btn btn-outline" onclick="copyConferenceCitation()">📋 Copy Conference Details</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:16px;">Conference at a Glance</h3>
+        <table class="dates-table">
+          <tr>
+            <td><strong>Conference Acronym</strong></td>
+            <td><strong style="color:var(--emerald);">AIHASC 2027</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Full Title</strong></td>
+            <td>Intl. Conference on AI for Healthcare, Agriculture and Sustainable Computing</td>
+          </tr>
+          <tr>
+            <td><strong>Edition &amp; Frequency</strong></td>
+            <td>First Edition (Proposed Annual)</td>
+          </tr>
+          <tr>
+            <td><strong>Conference Dates</strong></td>
+            <td><strong>25–26 March 2027</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Host Location</strong></td>
+            <td>Pune, Maharashtra, India</td>
+          </tr>
+          <tr>
+            <td><strong>Peer Review Model</strong></td>
+            <td>Double-Blind Peer Review (min. 3 reviewers)</td>
+          </tr>
+          <tr>
+            <td><strong>Proceedings Plan</strong></td>
+            <td>Established international conference publisher</td>
+          </tr>
+        </table>
+
+        <div class="notice-box" style="margin-top:20px;padding:18px;">
+          <div style="font-size:0.88rem;color:var(--text-muted);line-height:1.5;">
+            🛡️ <strong>Publication Integrity Policy:</strong> AIHASC 2027 adheres to transparent scholarly publishing practices. Scopus indexing is not guaranteed prior to verified publisher acceptance.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Tracks Preview -->
+  <section class="section section-alt" id="tracks-preview">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-tag badge-cyan">Comprehensive Technical Scope</span>
+        <h2>6 Thematic Tracks for Cutting-Edge Research</h2>
+        <p>AIHASC 2027 invites submissions across six interconnected domains advancing computational excellence for healthcare, agriculture, and environmental sustainability.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- Track 1 -->
+        <div class="card track-card">
+          <div class="track-header">
+            <span class="track-badge">Track 01</span>
+            <span class="track-topic-count">8 Topics</span>
+          </div>
+          <h3>Artificial Intelligence &amp; Intelligent Computing</h3>
+          <p class="track-desc">Machine Learning, Deep Learning, Generative AI, LLMs, Computer Vision, Explainable &amp; Trustworthy AI, and Neural Network Optimization.</p>
+          <div class="track-topics-wrap">
+            <span class="topic-tag">Generative AI</span>
+            <span class="topic-tag">Computer Vision</span>
+            <span class="topic-tag">Trustworthy AI</span>
+            <span class="topic-tag">Model Optimization</span>
+          </div>
+          <div class="track-footer">
+            <a href="tracks.html#track-1" class="btn btn-outline" style="padding:7px 14px;font-size:0.85rem;">View Track Scope →</a>
+          </div>
+        </div>
+
+        <!-- Track 2 -->
+        <div class="card track-card">
+          <div class="track-header">
+            <span class="track-badge">Track 02</span>
+            <span class="track-topic-count">9 Topics</span>
+          </div>
+          <h3>AI for Healthcare &amp; Biomedical Applications</h3>
+          <p class="track-desc">Medical Image Segmentation, AI Disease Diagnosis, Biomedical Signal Processing, Cancer Detection, Drug Discovery, and Federated Healthcare.</p>
+          <div class="track-topics-wrap">
+            <span class="topic-tag">Medical Imaging</span>
+            <span class="topic-tag">Cancer Detection</span>
+            <span class="topic-tag">Drug Discovery</span>
+            <span class="topic-tag">Federated Health</span>
+          </div>
+          <div class="track-footer">
+            <a href="tracks.html#track-2" class="btn btn-outline" style="padding:7px 14px;font-size:0.85rem;">View Track Scope →</a>
+          </div>
+        </div>
+
+        <!-- Track 3 -->
+        <div class="card track-card">
+          <div class="track-header">
+            <span class="track-badge">Track 03</span>
+            <span class="track-topic-count">9 Topics</span>
+          </div>
+          <h3>AI for Agriculture &amp; Food Security</h3>
+          <p class="track-desc">Plant Disease Identification, Precision Farming, Crop Yield Forecasting, Soil &amp; Nutrient Management, Agri-Robotics, and Remote Sensing.</p>
+          <div class="track-topics-wrap">
+            <span class="topic-tag">Precision Agri</span>
+            <span class="topic-tag">Crop Yield Prediction</span>
+            <span class="topic-tag">Drone Sensing</span>
+            <span class="topic-tag">Soil AI</span>
+          </div>
+          <div class="track-footer">
+            <a href="tracks.html#track-3" class="btn btn-outline" style="padding:7px 14px;font-size:0.85rem;">View Track Scope →</a>
+          </div>
+        </div>
+
+        <!-- Track 4 -->
+        <div class="card track-card">
+          <div class="track-header">
+            <span class="track-badge">Track 04</span>
+            <span class="track-topic-count">9 Topics</span>
+          </div>
+          <h3>Sustainable &amp; Green Computing</h3>
+          <p class="track-desc">Green Computing, Energy-Efficient AI Models, Data Centre Optimization, Edge &amp; Fog Computing, Renewable Energy Forecasting, and Smart Cities.</p>
+          <div class="track-topics-wrap">
+            <span class="topic-tag">Green AI</span>
+            <span class="topic-tag">Carbon-Aware Tech</span>
+            <span class="topic-tag">Edge Computing</span>
+            <span class="topic-tag">Smart Cities</span>
+          </div>
+          <div class="track-footer">
+            <a href="tracks.html#track-4" class="btn btn-outline" style="padding:7px 14px;font-size:0.85rem;">View Track Scope →</a>
+          </div>
+        </div>
+
+        <!-- Track 5 -->
+        <div class="card track-card">
+          <div class="track-header">
+            <span class="track-badge">Track 05</span>
+            <span class="track-topic-count">8 Topics</span>
+          </div>
+          <h3>Cybersecurity, Privacy &amp; Responsible Computing</h3>
+          <p class="track-desc">AI-Driven Threat Detection, Blockchain Technologies, Privacy-Preserving ML, Secure IoT Systems, Adversarial AI, and Data Governance.</p>
+          <div class="track-topics-wrap">
+            <span class="topic-tag">Cyber Defense</span>
+            <span class="topic-tag">Privacy ML</span>
+            <span class="topic-tag">Blockchain</span>
+            <span class="topic-tag">AI Governance</span>
+          </div>
+          <div class="track-footer">
+            <a href="tracks.html#track-5" class="btn btn-outline" style="padding:7px 14px;font-size:0.85rem;">View Track Scope →</a>
+          </div>
+        </div>
+
+        <!-- Track 6 -->
+        <div class="card track-card">
+          <div class="track-header">
+            <span class="track-badge">Track 06</span>
+            <span class="track-topic-count">9 Topics</span>
+          </div>
+          <h3>Emerging Technologies &amp; Interdisciplinary Applications</h3>
+          <p class="track-desc">IoT &amp; Industrial IoT, Digital Twins, Autonomous Robotics, Quantum Computing, Disaster Prediction, and Interdisciplinary SDG Innovations.</p>
+          <div class="track-topics-wrap">
+            <span class="topic-tag">Digital Twins</span>
+            <span class="topic-tag">Robotics</span>
+            <span class="topic-tag">Quantum AI</span>
+            <span class="topic-tag">SDG Solutions</span>
+          </div>
+          <div class="track-footer">
+            <a href="tracks.html#track-6" class="btn btn-outline" style="padding:7px 14px;font-size:0.85rem;">View Track Scope →</a>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align:center;margin-top:40px;">
+        <a href="tracks.html" class="btn btn-primary">🔍 Explore All 54 Topics with Interactive Filter →</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Proposed Conference Format & Timeline -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-tag">Academic Programme Structure</span>
+        <h2>Proposed Conference Format</h2>
+        <p>A dynamic two-day programme designed to facilitate meaningful technical dialogue, peer review dissemination, and academic-industry synergy.</p>
+      </div>
+
+      <div class="format-timeline">
+        <div class="format-box">
+          <div class="format-step">01</div>
+          <h3 style="font-size:1.18rem;margin-bottom:8px;">Inaugural &amp; Keynotes</h3>
+          <p style="font-size:0.9rem;">Opening address by distinguished university leaders and invited keynote speeches by world-renowned scientists in AI and healthcare.</p>
+        </div>
+        <div class="format-box">
+          <div class="format-step">02</div>
+          <h3 style="font-size:1.18rem;margin-bottom:8px;">Technical Presentations</h3>
+          <p style="font-size:0.9rem;">Oral presentation sessions for peer-reviewed research papers across the 6 technical tracks with rigorous Q&amp;A discussions.</p>
+        </div>
+        <div class="format-box">
+          <div class="format-step">03</div>
+          <h3 style="font-size:1.18rem;margin-bottom:8px;">Thematic Sessions</h3>
+          <p style="font-size:0.9rem;">Dedicated cross-cutting sessions in precision healthcare, smart farming robotics, and sustainable high-performance computing.</p>
+        </div>
+        <div class="format-box">
+          <div class="format-step">04</div>
+          <h3 style="font-size:1.18rem;margin-bottom:8px;">Industry Interaction</h3>
+          <p style="font-size:0.9rem;">Interactive roundtables connecting university researchers with healthcare technologists, agri-tech innovators, and startup founders.</p>
+        </div>
+        <div class="format-box">
+          <div class="format-step">05</div>
+          <h3 style="font-size:1.18rem;margin-bottom:8px;">Best Paper &amp; Valedictory</h3>
+          <p style="font-size:0.9rem;">Recognition of outstanding research contributions with Best Paper Awards and formal presentation of conference proceedings outcomes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Important Dates & Call for Contributions -->
+  <section class="section">
+    <div class="container two-col">
+      <div>
+        <span class="badge-tag">Submission Deadlines</span>
+        <h2>Important Conference Dates</h2>
+        <p>Keep track of critical milestones for paper submission, peer review notifications, and registration for AIHASC 2027.</p>
+
+        <table class="dates-table">
+          <tr>
+            <td><strong>Conference Dates</strong></td>
+            <td><strong style="color:var(--emerald);">25–26 March 2027</strong></td>
+            <td><span class="date-status status-confirmed">Confirmed</span></td>
+          </tr>
+          <tr>
+            <td><strong>Paper Submission Deadline</strong></td>
+            <td>To be announced</td>
+            <td><span class="date-status status-tba">TBA</span></td>
+          </tr>
+          <tr>
+            <td><strong>Notification of Acceptance</strong></td>
+            <td>To be announced</td>
+            <td><span class="date-status status-tba">TBA</span></td>
+          </tr>
+          <tr>
+            <td><strong>Camera-Ready Submission</strong></td>
+            <td>To be announced</td>
+            <td><span class="date-status status-tba">TBA</span></td>
+          </tr>
+          <tr>
+            <td><strong>Registration Deadline</strong></td>
+            <td>To be announced</td>
+            <td><span class="date-status status-tba">TBA</span></td>
+          </tr>
+        </table>
+
+        <div style="margin-top:24px;">
+          <a href="call-for-papers.html" class="btn btn-primary">Check Submission Guidelines →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:14px;">Types of Contributions Welcomed</h3>
+        <p style="font-size:0.94rem;">AIHASC 2027 invites multiple original submission formats:</p>
+        <ul class="list-check" style="font-size:0.92rem;">
+          <li><strong>Full-Length Research Papers:</strong> Presenting novel methods, algorithms, mathematical models, or empirical findings.</li>
+          <li><strong>Application-Oriented Papers:</strong> Addressing practical challenges in healthcare delivery, crop management, or energy efficiency.</li>
+          <li><strong>Interdisciplinary Studies:</strong> Combining AI, computer engineering, biosciences, and ecological data science.</li>
+          <li><strong>System Design &amp; Evaluation:</strong> Practical deployments, hardware/software prototypes, and benchmark evaluations.</li>
+        </ul>
+        <div style="background:var(--bg-elevated);padding:14px;border-radius:var(--radius-sm);font-size:0.86rem;border:1px solid var(--border);">
+          ⚠️ <strong>Originality Notice:</strong> All submissions must represent unpublished work and must not be under review elsewhere.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- City & Venue Preview -->
+  <section class="section section-alt">
+    <div class="container two-col" style="align-items:center;">
+      <div>
+        <span class="badge-tag">Host City</span>
+        <h2>Pune, Maharashtra, India — The Knowledge &amp; Innovation Capital</h2>
+        <p>
+          Known as the "Oxford of the East" and one of India’s premier technology and automotive corridors, Pune provides a vibrant academic atmosphere and premier research infrastructure for the inaugural edition of AIHASC 2027.
+        </p>
+        <ul class="list-check">
+          <li><strong>Pleasant Spring Climate:</strong> Warm, comfortable weather in late March with temperatures between 20°C and 32°C.</li>
+          <li><strong>Global Connectivity:</strong> Direct flights into Pune International Airport (PNQ) and 3 hours via the expressway from Mumbai (BOM).</li>
+          <li><strong>Academic Hub:</strong> Home to premier research institutes, universities, and major IT clusters.</li>
+        </ul>
+        <div style="margin-top:20px;">
+          <a href="venue.html" class="btn btn-outline">Explore Travel &amp; Venue Details →</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="hero-visual-card">
+          <img src="images/aihasc_sustainable_city.jpg" alt="Sustainable high-tech university campus in Pune" class="hero-visual-img" style="height:320px;">
+          <div class="hero-visual-overlay">
+            <div class="hero-visual-title">Pune Tech &amp; Research Hub</div>
+            <p style="font-size:0.82rem;margin-bottom:0;color:rgba(255,255,255,0.85);">An inspiring academic hub where historical legacy meets forward-looking sustainable technology.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Banner -->
+  <section class="section" style="padding:60px 0;">
+    <div class="container">
+      <div class="card" style="background:linear-gradient(135deg, rgba(16,185,129,0.12) 0%, rgba(6,182,212,0.12) 100%);border-color:rgba(16,185,129,0.3);text-align:center;padding:50px 30px;">
+        <span class="badge-tag">Stay Informed</span>
+        <h2 style="font-size:2.2rem;margin-bottom:14px;">Be Part of the First Edition of AIHASC 2027</h2>
+        <p style="max-width:650px;margin:0 auto 26px;">
+          Join an international cohort of researchers, academicians, and innovators advancing AI for Healthcare, Agriculture, and Sustainable Computing.
+        </p>
+        <div style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap;">
+          <a href="call-for-papers.html" class="btn btn-primary">Submit Your Paper</a>
+          <a href="contact.html" class="btn btn-outline">Contact Secretariat</a>
+          <a href="downloads/AIHASC_2027_Call_for_Papers_and_Conference_Proposal.docx" class="btn btn-amber" download>📥 Download Proposal Document</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="brand-link" style="margin-bottom:18px;">
+          <div class="brand-vit-wrap">
+            <img src="images/vit%20logo.png" alt="VIT Pune Logo" class="brand-vit-logo">
+          </div>
+          <div class="brand-divider" aria-hidden="true"></div>
+          <img src="images/favicon.svg" alt="AIHASC 2027 Logo" class="brand-emblem">
+          <div class="brand-text">
+            <div class="brand-title" style="color:#ffffff;">AIHASC <span class="brand-year">2027</span></div>
+            <div class="brand-sub">AI · Health · Agriculture · Sustainability</div>
+          </div>
+        </a>
+        <p style="font-size:0.88rem;line-height:1.6;margin-bottom:16px;">
+          <strong>AIHASC 2027</strong> — International Conference on AI for Healthcare, Agriculture and Sustainable Computing. Advancing intelligent technologies for a sustainable, healthy future.
+        </p>
+        <div style="font-size:0.84rem;color:var(--text-dim);">
+          📍 Pune, Maharashtra, India · 25–26 March 2027
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About AIHASC</a></li>
+          <li><a href="tracks.html">Technical Tracks</a></li>
+          <li><a href="call-for-papers.html">Call for Papers</a></li>
+          <li><a href="author-guidelines.html">Author Guidelines</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Proposal &amp; Governance</h4>
+        <ul class="footer-links">
+          <li><a href="proposal.html">Conference Proposal</a></li>
+          <li><a href="committee.html">Organizing Committee</a></li>
+          <li><a href="venue.html">Venue &amp; Travel</a></li>
+          <li><a href="contact.html">Contact Secretariat</a></li>
+          <li><a href="downloads/AIHASC_2027_Call_for_Papers_and_Conference_Proposal.docx" download>Download DOCX</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Publication Transparency</h4>
+        <p style="font-size:0.85rem;line-height:1.55;color:var(--text-dim);margin-bottom:14px;">
+          Peer review is conducted via double-blind assessment by three independent reviewers. Publication arrangements are subject to confirmation with selected publisher and proceedings acceptance.
+        </p>
+        <div style="font-size:0.82rem;color:var(--emerald);">
+          ✓ Double-Blind Peer Review &nbsp;•&nbsp; ✓ COPE Ethics Adherence
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>
+        © 2027 AIHASC Organizing Committee. All rights reserved.
+      </div>
+      <div style="display:flex;gap:16px;">
+        <a href="about.html" style="color:var(--text-dim);">About</a>
+        <a href="tracks.html" style="color:var(--text-dim);">Scope</a>
+        <a href="contact.html" style="color:var(--text-dim);">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
